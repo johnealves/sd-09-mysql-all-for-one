@@ -1,5 +1,6 @@
-SELECT  notes
-FROM purchase_orders
-WHERE notes BETWEEN 'Purchase generated based 
-ON Order #30' AND 'Purchase generated based
-ON Order #39';
+SELECT 
+    notes
+FROM
+    purchase_orders
+WHERE
+    notes BETWEEN 'Purchase generated based on Order #30' AND 'Purchase generated based on Order #39';
