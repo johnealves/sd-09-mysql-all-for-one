@@ -1,1 +1,1 @@
-UPDATE northwind.order_details SET discount = 15 WHERE discount = 15;
+UPDATE northwind.order_details SET discount = 15;
