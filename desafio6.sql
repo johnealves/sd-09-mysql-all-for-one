@@ -1,2 +1,2 @@
-SELECT CONCAT(product_name, id) FROM products
+SELECT CONCAT(product_name, ' ', id) FROM products
 ORDER BY product_name;
