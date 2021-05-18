@@ -5,4 +5,3 @@ FROM
 WHERE
     notes LIKE '%3%';
     
-    
