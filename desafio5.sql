@@ -1,1 +1,1 @@
-select * from northwind.products limit 13;
+select * from northwind.products limit 10 offset 3;
