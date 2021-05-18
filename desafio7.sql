@@ -1,3 +1,3 @@
 SELECT id FROM products 
-ORDER BY id ASC
+ORDER BY id DESC
 LIMIT 5;
