@@ -1,0 +1,1 @@
+SELECT notes FROM northwind.purchase_orders WHERE notes LIKE 'Purchase generated%' LIMIT 5;
