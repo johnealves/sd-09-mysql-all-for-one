@@ -1,4 +1,3 @@
-SELECT
-	`id`
+SELECT `id`
 FROM
 	`products`;
