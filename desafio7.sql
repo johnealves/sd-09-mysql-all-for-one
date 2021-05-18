@@ -1,8 +1,8 @@
-SELECT *
+SELECT id
 FROM (
 	SELECT *
     FROM products
     ORDER BY id DESC
     LIMIT 5
 )subProducts
-ORDER BY id ASC;
+ORDER BY id DESC;
