@@ -24,7 +24,7 @@ describe('Desafios iniciais', () => {
     sequelize.close();
   });
 
-  describe.only('1 - Exiba apenas os nomes do produtos na tabela `products`.', () => {
+  describe('1 - Exiba apenas os nomes do produtos na tabela `products`.', () => {
     it('Verifica o desafio1', async () => {
       const challengeQuery = readFileSync('desafio1.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult1');
@@ -33,7 +33,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe.only('2 - Exiba os dados de todas as colunas da tabela `products`.', () => {
+  describe('2 - Exiba os dados de todas as colunas da tabela `products`.', () => {
     it('Verifica o desafio2', async () => {
       const challengeQuery = readFileSync('desafio2.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult2');
@@ -42,7 +42,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe.only('3 - Escreva uma query que exiba os valores da coluna que representa a primary key da tabela `products`.', () => {
+  describe('3 - Escreva uma query que exiba os valores da coluna que representa a primary key da tabela `products`.', () => {
     it('Verifica o desafio3', async () => {
       const challengeQuery = readFileSync('desafio3.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult3');
@@ -51,7 +51,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe.only('4 - Conte quantos registros existem em `product_name` de `products`.', () => {
+  describe('4 - Conte quantos registros existem em `product_name` de `products`.', () => {
     it('Verifica o desafio4', async () => {
       const challengeQuery = readFileSync('desafio4.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult4');
@@ -60,7 +60,7 @@ describe('Desafios iniciais', () => {
     });
   });
 
-  describe.only('5 - Monte uma query que exiba os dados da tabela `products` a partir do quarto registro até o décimo terceiro, incluindo tanto um quanto o outro. Obs.: não use `where` ou `order by`.', () => {
+  describe('5 - Monte uma query que exiba os dados da tabela `products` a partir do quarto registro até o décimo terceiro, incluindo tanto um quanto o outro. Obs.: não use `where` ou `order by`.', () => {
     it('Verifica o desafio5', async () => {
       const challengeQuery = readFileSync('desafio5.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult5');
