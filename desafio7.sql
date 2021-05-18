@@ -1,6 +1,6 @@
 SELECT id
 FROM (
-	SELECT *
+    SELECT *
     FROM products
     ORDER BY id DESC
     LIMIT 5
