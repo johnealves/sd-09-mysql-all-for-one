@@ -1,0 +1,1 @@
+SELECT  notes FROM northwind.purchase_orders WHERE SUBSTRING(purchase_orders.notes, -2, 2) BETWEEN '29' AND '40';
