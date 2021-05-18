@@ -1,2 +1,2 @@
 SELECT product_name FROM northwind.products
-LIMIT 13 OFFSET 3;
+LIMIT 10 OFFSET 3;
