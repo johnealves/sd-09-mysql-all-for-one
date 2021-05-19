@@ -1,5 +1,5 @@
--- 10 - Mostre todos os dados da tabela purchase_orders em ordem decrescente ordenados por created_by em que o created_by é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo id de forma crescente.
+-- 11 - Exiba os dados de notes da tabela purchase_orders em que seu valor de "Purchase generated based on Order" está entre 30 e 39, incluindo tanto o valor de 30 quanto de 39.
 
-SELECT * FROM northwind.purchase_orders 
-WHERE created_by >= 3
-ORDER BY created_by DESC, id; 
+SELECT notes FROM northwind.purchase_orders
+WHERE notes BETWEEN 'Purchase generated based on Order #30' AND 'Purchase generated based on Order #39';
+ 
