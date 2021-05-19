@@ -1,5 +1,5 @@
 SELECT 
-    COUNT(employee_id)
+    COUNT(*)
 FROM
     northwind.orders
 WHERE
