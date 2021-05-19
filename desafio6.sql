@@ -1,3 +1,3 @@
 SELECT product_name, id
-FROM products
+FROM northwind.products
 ORDER BY product_name;

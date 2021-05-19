@@ -1,7 +1,7 @@
 SELECT id
 FROM (
     SELECT *
-    FROM products
+    FROM northwind.products
     ORDER BY id DESC
     LIMIT 5
 )subProducts
