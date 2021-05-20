@@ -11,4 +11,4 @@ VALUES (69,
 NULL,
 NULL,
 129
-)
+);
