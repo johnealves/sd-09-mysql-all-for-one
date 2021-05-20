@@ -1,5 +1,3 @@
-SET SQL_SAFE_UPDATES = 0;
-
-UPDATE northwind.order_details
+UPDATE order_details
 SET discount = 15
-WHERE discount = 0;
+WHERE discount  = 0;
