@@ -1,0 +1,1 @@
+SELECT * FROM northwind LIMIT 7 OFFSET 3;
