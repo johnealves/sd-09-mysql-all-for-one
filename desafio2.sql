@@ -1,1 +1,1 @@
--- código
+SELECT * FROM northwind.products;
