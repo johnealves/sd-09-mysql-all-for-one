@@ -5,3 +5,4 @@ FROM
 WHERE
     DATE(submitted_date) = '2006/04/26';
     
+    

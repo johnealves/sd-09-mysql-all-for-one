@@ -5,3 +5,4 @@ FROM
 WHERE
     notes IS NOT NULL;
     
+    
