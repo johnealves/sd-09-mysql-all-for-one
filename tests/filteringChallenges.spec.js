@@ -33,7 +33,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('10 - Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo `id` de forma crescente.', () => {
+  describe('10 - Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` em que o `created_by` é maior ou igual a 3. E como critério de desempate para a ordenação, ordene também os resultados pelo `id` de forma crescente.', () => {
     it('Verifica o desafio10', async () => {
       const challengeQuery = readFileSync('desafio10.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult10');
@@ -44,7 +44,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('11 - Exiba os dados de `notes` da tabela `purchase_orders` em que seu valor de \"Purchase generated based on Order\" está entre 30 e 39, incluindo tanto o valor de 30 quanto de 39.', () => {
+  describe('11 - Exiba os dados de `notes` da tabela `purchase_orders` em que seu valor de \"Purchase generated based on Order\" está entre 30 e 39, incluindo tanto o valor de 30 quanto de 39.', () => {
     it('Verifica o desafio11', async () => {
       const challengeQuery = readFileSync('desafio11.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult11');
@@ -53,7 +53,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('12 - Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.', () => {
+  describe('12 - Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.', () => {
     it('Verifica o desafio12', async () => {
       const challengeQuery = readFileSync('desafio12.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult12');
@@ -64,7 +64,7 @@ describe('Desafios sobre filtragem de dados', () => {
     });
   });
 
-  describe.only('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
+  describe('13 - Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.', () => {
     it('Verifica o desafio13', async () => {
       const challengeQuery = readFileSync('desafio13.sql', 'utf8').trim();
       const expectedResult = require('./challengesResults/challengeResult13');
