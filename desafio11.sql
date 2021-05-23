@@ -2,12 +2,12 @@
  valor de \"Purchase generated based on Order\" está entre 30 e 39, incluindo
  tanto o valor de 30 quanto de 39.*/
 
-SET @initialValue = 'Purchase generated based on Order #30';
-SET @finalValue = 'Purchase generated based on Order #39';
-
 SELECT 
     notes
 FROM
     northwind.purchase_orders
 WHERE
-    notes BETWEEN @initialValue AND @finalValue;
+    notes
+    BETWEEN
+        'Purchase generated based on Order #30'
+        AND 'Purchase generated based on Order #39';
