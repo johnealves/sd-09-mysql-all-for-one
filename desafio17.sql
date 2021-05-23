@@ -8,3 +8,4 @@ WHERE
         OR supplier_id = 7;
     
     
+    
