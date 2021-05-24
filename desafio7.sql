@@ -1,7 +1,6 @@
-USE northwind;
 SELECT
     id
 FROM
-    products
+    northwind.products
 ORDER BY id DESC
 LIMIT 5;

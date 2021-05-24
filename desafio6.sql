@@ -1,6 +1,5 @@
-USE northwind;
 SELECT
     product_name, id
 FROM
-    products
+    northwind.products
 ORDER BY product_name;

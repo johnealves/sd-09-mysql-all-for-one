@@ -1,5 +1,4 @@
-USE northwind;
 SELECT
-    product_name AS Nomes
+    product_name
 FROM
-    products;
+    northwind.products;
