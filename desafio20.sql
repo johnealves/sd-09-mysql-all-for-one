@@ -3,5 +3,3 @@ INSERT INTO northwind.order_details
 discount, status_id, date_allocated,
 purchase_order_id, inventory_id)
 VALUES(69, 80, 150000, 150000, 0, 2, NULL, NULL, 129);
-
-SELECT * FROM northwind.order_details;
