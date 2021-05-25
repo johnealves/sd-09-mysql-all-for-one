@@ -1,3 +1,3 @@
 DELETE FROM order_details
 WHERE
-    unit_price < 10000;
+    unit_price < 100000;
